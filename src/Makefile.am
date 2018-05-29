@@ -77,7 +77,7 @@ endif
 # rupaya core #
 BITCOIN_CORE_H = \
   activemasternode.h \
-  accumulators.h \
+  zrupx/accumulators.h \
   accumulatormap.h \
   addrman.h \
   alert.h \
@@ -176,8 +176,8 @@ BITCOIN_CORE_H = \
   wallet/wallet.h \
   wallet/wallet_ismine.h \
   wallet/walletdb.h \
-  zrupxchain.h \
-  zrupx/accumulators.h \
+  zrupx/zrupx/zrupxchain.h \
+  zrupx/zrupx/accumulators.h \
   zrupx/accumulatorcheckpoints.h \
   zrupx/accumulatorcheckpoints.json.h \
   zrupx/accumulatormap.h \
@@ -397,7 +397,6 @@ libbitcoin_util_a_SOURCES = \
   compat/strnlen.cpp \
   random.cpp \
   rpc/protocol.cpp \
-  support/cleanse.cpp \
   sync.cpp \
   uint256.cpp \
   util.cpp \
