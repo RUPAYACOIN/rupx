@@ -110,7 +110,7 @@ BITCOIN_CORE_H = \
   denomination_functions.h \
   obfuscation.h \
   obfuscation-relay.h \
-  db.h \
+  wallet/db.h \
   hash.h \
   httprpc.h \
   httpserver.h \
@@ -173,12 +173,20 @@ BITCOIN_CORE_H = \
   utiltime.h \
   validationinterface.h \
   version.h \
-  wallet.h \
-  wallet_ismine.h \
-  walletdb.h \
+  wallet/wallet.h \
+  wallet/wallet_ismine.h \
+  wallet/walletdb.h \
   zrupxchain.h \
-  zrupxtracker.h \
-  zrupxwallet.h \
+  zrupx/accumulators.h \
+  zrupx/accumulatorcheckpoints.h \
+  zrupx/accumulatorcheckpoints.json.h \
+  zrupx/accumulatormap.h \
+  zrupx/deterministicmint.h \
+  zrupx/mintpool.h \
+  zrupx/witness.h \
+  zrupx/zerocoin.h \
+  zrupx/zrupxtracker.h \
+  zrupx/zrupxwallet.h \
   genwit.h \
   concurrentqueue.h \
   lightzrupxthread.h \
@@ -251,7 +259,7 @@ libbitcoin_wallet_a_SOURCES = \
   denomination_functions.cpp \
   obfuscation.cpp \
   obfuscation-relay.cpp \
-  db.cpp \
+  wallet/db.cpp \
   crypter.cpp \
   swifttx.cpp \
   masternode.cpp \
@@ -260,17 +268,19 @@ libbitcoin_wallet_a_SOURCES = \
   masternode-sync.cpp \
   masternodeconfig.cpp \
   masternodeman.cpp \
-  mintpool.cpp \
-  rpcdump.cpp \
-  primitives/deterministicmint.cpp \
-  primitives/zerocoin.cpp \
-  rpcwallet.cpp \
+  wallet/rpcdump.cpp \
+  wallet/rpcwallet.cpp \
   kernel.cpp \
-  wallet.cpp \
-  wallet_ismine.cpp \
-  walletdb.cpp \
-  zrupxwallet.cpp \
-  zrupxtracker.cpp \
+  wallet/wallet.cpp \
+  wallet/wallet_ismine.cpp \
+  wallet/walletdb.cpp \
+  zrupx/deterministicmint.cpp \
+  zrupx/zerocoin.cpp \
+  zrupx/accumulators.cpp \
+  zrupx/mintpool.cpp \
+  zrupx/witness.cpp \
+  zrupx/zrupxwallet.cpp \
+  zrupx/zrupxtracker.cpp \
   stakeinput.cpp \
   genwit.cpp \
   lightzrupxthread.cpp \

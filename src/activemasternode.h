@@ -12,7 +12,7 @@
 #include "net.h"
 #include "obfuscation.h"
 #include "sync.h"
-#include "wallet.h"
+#include "wallet/wallet.h"
 
 #define MASTERNODE_REQUIRED_AMOUNT                 20000
 #define MASTERNODE_ACCEPTABLE_INPUTS_CHECK_AMOUNT  19999.99

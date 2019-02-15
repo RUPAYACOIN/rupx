@@ -21,10 +21,10 @@
 #include "ui_interface.h"
 #include "util.h"
 #include "validationinterface.h"
-#include "wallet_ismine.h"
-#include "walletdb.h"
-#include "zrupxwallet.h"
-#include "zrupxtracker.h"
+#include "wallet/wallet_ismine.h"
+#include "wallet/walletdb.h"
+#include "zrupx/zrupxwallet.h"
+#include "zrupx/zrupxtracker.h"
 
 #include <algorithm>
 #include <map>
@@ -536,7 +536,7 @@ public:
     std::set<CTxDestination> GetAccountAddresses(std::string strAccount) const;
 
     bool GetBudgetSystemCollateralTX(CWalletTx& tx, uint256 hash, bool useIX);
-    bool GetBudgetFinalizationCollateralTX(CWalletTx& tx, uint256 hash, bool useIX); // Only used for budget finalization 
+    bool GetBudgetFinalizationCollateralTX(CWalletTx& tx, uint256 hash, bool useIX); // Only used for budget finalization
 
     // get the Obfuscation chain depth for a given input
     int GetRealInputObfuscationRounds(CTxIn in, int rounds) const;

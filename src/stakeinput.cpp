@@ -9,7 +9,7 @@
 #include "main.h"
 #include "primitives/deterministicmint.h"
 #include "stakeinput.h"
-#include "wallet.h"
+#include "wallet/wallet.h"
 
 CZRupxStake::CZRupxStake(const libzerocoin::CoinSpend& spend)
 {

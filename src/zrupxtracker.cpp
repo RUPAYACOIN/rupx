@@ -8,8 +8,10 @@
 #include "sync.h"
 #include "main.h"
 #include "txdb.h"
-#include "walletdb.h"
-#include "accumulators.h"
+#include "wallet/walletdb.h"
+#include "zrupx/accumulators.h"
+#include "zrupx/zrupxwallet.h"
+#include "witness.h"
 
 using namespace std;
 

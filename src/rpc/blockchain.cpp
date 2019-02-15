@@ -14,10 +14,11 @@
 #include "txdb.h"
 #include "util.h"
 #include "utilmoneystr.h"
-#include "accumulatormap.h"
-#include "accumulators.h"
-#include "wallet.h"
-#include "libzerocoin/Coin.h"
+#include "zrupx/accumulatormap.h"
+#include "zrupx/accumulators.h"
+#include "wallet/wallet.h"
+#include "zrupxchain.h"
+
 #include <stdint.h>
 #include <fstream>
 #include <iostream>

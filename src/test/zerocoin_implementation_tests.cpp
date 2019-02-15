@@ -13,9 +13,9 @@
 #include "libzerocoin/bignum.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
-#include <accumulators.h>
-#include "wallet.h"
-#include "zrupxwallet.h"
+#include <zrupx/accumulators.h>
+#include "wallet/wallet.h"
+#include "zrupx/zrupxwallet.h"
 #include "zrupxchain.h"
 
 using namespace libzerocoin;
