@@ -145,7 +145,15 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"searchdzrupx", 2},
         {"getaccumulatorvalues", 0},
         {"enableautomintaddress", 0},
-        {"getfeeinfo", 0}
+        {"getmintsinblocks", 0},
+        {"getmintsinblocks", 1},
+        {"getmintsinblocks", 2},
+        {"getserials", 0},
+        {"getserials", 1},
+        {"getserials", 2},
+        {"getfeeinfo", 0},
+        {"getchecksumblock", 1},
+        {"getchecksumblock", 2},
     };
 
 class CRPCConvertTable
