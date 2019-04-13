@@ -1,2 +1,2 @@
-debian/manpages/rupayad.1
-debian/manpages/rupaya.conf.5
+doc/man/rupayad.1
+doc/man/rupaya-cli.1

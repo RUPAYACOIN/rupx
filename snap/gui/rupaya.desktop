@@ -4,7 +4,7 @@
 Type=Application
 Version=5.2.00
 Encoding=UTF-8
-Name=Pivx-Qt
+Name=Rupaya-Qt
 Icon=${SNAP}/rupaya128.png
 MimeType=x-scheme-handler/rupaya;
 Exec=rupaya %u

@@ -1,12 +1,13 @@
 [Desktop Entry]
-Encoding=UTF-8
-Name=RUPAYA
+Version=1.0
+Name=RUPAYA Core
 Comment=RUPAYA P2P Cryptocurrency
 Comment[fr]=RUPAYA, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=RUPAYA, eşten eşe kriptografik sanal para birimi
 Exec=rupaya-qt %u
 Terminal=false
 Type=Application
-Icon=rupaya128
+Icon=pivx128
 MimeType=x-scheme-handler/rupaya;
 Categories=Office;Finance;
+StartupWMClass=Rupaya-qt

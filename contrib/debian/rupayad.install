@@ -1,2 +1,3 @@
 usr/local/bin/rupayad usr/bin
 usr/local/bin/rupaya-cli usr/bin
+debian/examples/rupaya.conf etc/rupaya
