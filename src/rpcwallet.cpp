@@ -3728,7 +3728,7 @@ UniValue spendrawzerocoin(const UniValue& params, bool fHelp)
         address_str = params[4].get_str();
 
     // Create the coin associated with these secrets
-    libzerocoin::PrivateCoin coin(Params().Zerocoin_Params(false), denom, serial, randomness);
+    libzerocoin::PrivateCoin coin(Params().Zerocoin_Params(), denom, serial, randomness);
     coin.setPrivKey(privkey);
     coin.setVersion(libzerocoin::PrivateCoin::CURRENT_VERSION);
 
@@ -3737,6 +3737,6 @@ UniValue spendrawzerocoin(const UniValue& params, bool fHelp)
     vector<CZerocoinMint> vMintsSelected = {mint};
     CAmount nAmount = mint.GetDenominationAsAmount();
 
-    return DoZpivSpend(nAmount, false, true, 42, vMintsSelected, address_str);
+    return DoZrupxSpend(nAmount, false, true, 42, vMintsSelected, address_str);
 }
 

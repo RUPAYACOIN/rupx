@@ -134,3 +134,6 @@ CMakeLists.txt
 cmake-build-debug
 .vscode/ipch/640bbc8bcdc4efce/mmap_address.bin
 .vscode/ipch/640bbc8bcdc4efce/rawtransaction.ipch
+.vscode/ipch/ce5cbbaeaaec3c58/mmap_address.bin
+.vscode/ipch/ce5cbbaeaaec3c58/rpcwallet.ipch
+*.ipch
