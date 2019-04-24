@@ -132,3 +132,5 @@ libbitcoinconsensus.pc
 .idea
 CMakeLists.txt
 cmake-build-debug
+.vscode/ipch/640bbc8bcdc4efce/mmap_address.bin
+.vscode/ipch/640bbc8bcdc4efce/rawtransaction.ipch
