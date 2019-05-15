@@ -2139,10 +2139,9 @@ bool CWallet::SelectStakeCoins(std::list<std::unique_ptr<CStakeInput> >& listInp
         }
     }
 
+    /* Disable zRUPX Staking
     //zRUPX
-    if (GetBoolArg("-zrupxstake", true) &&
-        //chainActive.Height() > Params().Zerocoin_StartHeight() &&
-        !IsSporkActive(SPORK_16_ZEROCOIN_MAINTENANCE_MODE)) {
+    if ((GetBoolArg("-zrupxstake", true) || fPrecompute) && chainActive.Height() > Params().Zerocoin_StartHeight() && !IsSporkActive(SPORK_16_ZEROCOIN_MAINTENANCE_MODE)) {
         //Only update zRUPX set once per update interval
         bool fUpdate = false;
         static int64_t nTimeLastUpdate = 0;
@@ -2170,7 +2169,7 @@ bool CWallet::SelectStakeCoins(std::list<std::unique_ptr<CStakeInput> >& listInp
             }
         }
     }
-
+    */
     return true;
 }
 
