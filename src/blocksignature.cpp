@@ -5,7 +5,7 @@
 
 #include "blocksignature.h"
 #include "main.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 bool SignBlockWithKey(CBlock& block, const CKey& key)
 {

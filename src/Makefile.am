@@ -176,8 +176,8 @@ BITCOIN_CORE_H = \
   wallet/wallet.h \
   wallet/wallet_ismine.h \
   wallet/walletdb.h \
-  zrupx/zrupx/zrupxchain.h \
-  zrupx/zrupx/accumulators.h \
+  zrupx/zrupxchain.h \
+  zrupx/accumulators.h \
   zrupx/accumulatorcheckpoints.h \
   zrupx/accumulatorcheckpoints.json.h \
   zrupx/accumulatormap.h \

@@ -3,7 +3,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 #include "chain.h"
 #include "denomination_functions.h"
 #include "main.h"

@@ -23,10 +23,10 @@
 #endif
 #include "validationinterface.h"
 #include "masternode-payments.h"
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 #include "blocksignature.h"
 #include "spork.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 
 #include <boost/thread.hpp>

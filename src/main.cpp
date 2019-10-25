@@ -8,7 +8,7 @@
 #include "main.h"
 
 #include "accumulatormap.h"
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 #include "addrman.h"
 #include "alert.h"
 #include "blocksignature.h"
@@ -33,7 +33,7 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #include "validationinterface.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 #include "libzerocoin/Denominations.h"
 #include "primitives/zerocoin.h"

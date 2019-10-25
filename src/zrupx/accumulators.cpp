@@ -3,14 +3,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 #include "accumulatormap.h"
 #include "chainparams.h"
 #include "main.h"
 #include "txdb.h"
 #include "init.h"
 #include "spork.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 using namespace libzerocoin;
 

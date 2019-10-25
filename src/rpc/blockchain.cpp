@@ -17,7 +17,7 @@
 #include "zrupx/accumulatormap.h"
 #include "zrupx/accumulators.h"
 #include "wallet/wallet.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 #include <stdint.h>
 #include <fstream>

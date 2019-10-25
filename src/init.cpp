@@ -11,7 +11,7 @@
 
 #include "init.h"
 
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 #include "activemasternode.h"
 #include "addrman.h"
 #include "amount.h"
@@ -38,13 +38,13 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #include "validationinterface.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 #ifdef ENABLE_WALLET
 #include "wallet/db.h"
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 
 #endif
 

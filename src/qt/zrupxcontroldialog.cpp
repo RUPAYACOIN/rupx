@@ -6,7 +6,7 @@
 #include "zrupxcontroldialog.h"
 #include "ui_zrupxcontroldialog.h"
 
-#include "accumulators.h"
+#include "zrupx/accumulators.h"
 #include "main.h"
 #include "walletmodel.h"
 

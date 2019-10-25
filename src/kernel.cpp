@@ -11,7 +11,7 @@
 #include "timedata.h"
 #include "util.h"
 #include "stakeinput.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 using namespace std;
 

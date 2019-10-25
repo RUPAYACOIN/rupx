@@ -16,7 +16,7 @@
 #include <zrupx/accumulators.h>
 #include "wallet/wallet.h"
 #include "zrupx/zrupxwallet.h"
-#include "zrupxchain.h"
+#include "zrupx/zrupxchain.h"
 
 using namespace libzerocoin;
 
