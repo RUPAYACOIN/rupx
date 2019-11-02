@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <primitives/deterministicmint.h>
-#include "zrupxtracker.h"
+#include "zrupx/zrupxtracker.h"
 #include "util.h"
 #include "sync.h"
 #include "main.h"
@@ -11,7 +11,7 @@
 #include "wallet/walletdb.h"
 #include "zrupx/accumulators.h"
 #include "zrupx/zrupxwallet.h"
-#include "witness.h"
+
 
 using namespace std;
 

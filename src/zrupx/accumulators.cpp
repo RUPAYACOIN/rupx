@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "zrupx/accumulators.h"
-#include "accumulatormap.h"
+#include "zrupx/accumulatormap.h"
 #include "chainparams.h"
 #include "main.h"
 #include "txdb.h"

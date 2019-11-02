@@ -78,7 +78,7 @@ endif
 BITCOIN_CORE_H = \
   activemasternode.h \
   zrupx/accumulators.h \
-  accumulatormap.h \
+  zrupx/accumulatormap.h \
   addrman.h \
   alert.h \
   allocators.h \
@@ -183,7 +183,6 @@ BITCOIN_CORE_H = \
   zrupx/accumulatormap.h \
   zrupx/deterministicmint.h \
   zrupx/mintpool.h \
-  zrupx/witness.h \
   zrupx/zerocoin.h \
   zrupx/zrupxtracker.h \
   zrupx/zrupxwallet.h \
@@ -276,9 +275,7 @@ libbitcoin_wallet_a_SOURCES = \
   wallet/walletdb.cpp \
   zrupx/deterministicmint.cpp \
   zrupx/zerocoin.cpp \
-  zrupx/accumulators.cpp \
   zrupx/mintpool.cpp \
-  zrupx/witness.cpp \
   zrupx/zrupxwallet.cpp \
   zrupx/zrupxtracker.cpp \
   stakeinput.cpp \
@@ -352,8 +349,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
-  accumulators.cpp \
-  accumulatormap.cpp \
+  zrupx/accumulatormap.cpp \
   allocators.cpp \
   amount.cpp \
   base58.cpp \
