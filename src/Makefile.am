@@ -349,6 +349,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
+  zrupx/accumulators.cpp \
   zrupx/accumulatormap.cpp \
   allocators.cpp \
   amount.cpp \

@@ -12,7 +12,6 @@
 #include "init.h"
 
 #include "zrupx/accumulators.h"
-#include "zrupx/accumulatormap.h"
 #include "activemasternode.h"
 #include "addrman.h"
 #include "amount.h"
