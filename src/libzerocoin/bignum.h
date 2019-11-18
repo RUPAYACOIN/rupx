@@ -125,7 +125,7 @@ public:
     * @param k The bit length of the number.
     * @return
     */
-    static CBigNum randKBitBignum(const uint32_t k);
+    static CBigNum RandKBitBigum(const uint32_t k);
 
     /**Returns the size in bits of the underlying bignum.
      *

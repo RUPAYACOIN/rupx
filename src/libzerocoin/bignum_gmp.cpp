@@ -76,7 +76,7 @@ CBigNum CBigNum::randBignum(const CBigNum& range)
 * @param k The bit length of the number.
 * @return
 */
-CBigNum CBigNum::randKBitBignum(const uint32_t k)
+CBigNum CBigNum::RandKBitBigum(const uint32_t k)
 {
     std::vector<unsigned char> buf((k+7)/8);
 
@@ -261,7 +261,7 @@ CBigNum CBigNum::inverse(const CBigNum& m) const
  */
 CBigNum CBigNum::generatePrime(const unsigned int numBits, bool safe)
 {
-    CBigNum rand = randKBitBignum(numBits);
+    CBigNum rand = RandKBitBigum(numBits);
     CBigNum prime;
     mpz_nextprime(prime.bn, rand.bn);
     return prime;

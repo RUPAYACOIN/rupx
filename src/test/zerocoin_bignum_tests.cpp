@@ -14,7 +14,7 @@ using namespace libzerocoin;
 
 bool testRandKBitBignum(int k_bits)
 {
-    CBigNum x = CBigNum::randKBitBignum(k_bits);
+    CBigNum x = CBigNum::RandKBitBigum(k_bits);
     return (x.bitSize() <= k_bits);
 }
 
@@ -78,11 +78,11 @@ BOOST_AUTO_TEST_CASE(bignum_basic_tests)
 BOOST_AUTO_TEST_CASE(bignum_random_generation_tests)
 {
     for(int i=1; i<3000; i++) {
-        BOOST_CHECK_MESSAGE(testRandKBitBignum(i), strprintf("CBigNum::randKBitBignum(%d) failed", i));
+        BOOST_CHECK_MESSAGE(testRandKBitBignum(i), strprintf("CBigNum::RandKBitBigum(%d) failed", i));
     }
 
     for(int i=1; i<3000; i++) {
-        CBigNum x = 1 + CBigNum::randKBitBignum(i);
+        CBigNum x = 1 + CBigNum::RandKBitBigum(i);
         BOOST_CHECK_MESSAGE(testRandBignum(x), strprintf("CBigNum::randBignum(x) failed with x=%s", x.ToString()));
     }
 }
